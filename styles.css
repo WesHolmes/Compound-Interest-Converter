@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+article {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 100px;
+}
+header {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 30px;
+  font-family: "Times new roman";
+  background-image: url("https://img.freepik.com/free-photo/big-city_1127-3102.jpg");
+  color: white;
+  text-align: center;
+  border: 5px;
+  border-style: solid;
+  border-color: goldenrod;
+  text-shadow: 2px 5px 1px black;
+}
+
+h1:hover {
+  transition: font-size 5s;
+  font-size: 50px;
+  transform: rotate 5s;
+  rotate: 180deg;
+}
+
+main {
+  padding: 20px;
+  background-color: beige;
+  display: grid;
+  grid-template-columns: auto;
+}
+
+footer {
+  font-style: italic;
+  background-image: linear-gradient(navy, orange, gold);
+  text-align: center;
+  color: white;
+}
+form {
+  display: grid;
+  grid-template: auto auto auto auto;
+  gap: 20px;
+}
